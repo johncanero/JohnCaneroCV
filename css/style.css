@@ -1,0 +1,460 @@
+** {
+  margin: 0;   
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+  .containerHeading {
+    padding-top: 2em;
+    padding-left: 4.5em;
+    padding-right: 4.5em;
+    padding-bottom: 2em;
+  }
+
+/* Tablet */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+
+    .containerHeading {
+      padding-top: 2em;
+      padding-left: 7em;
+      padding-right: 7em;
+      padding-bottom: 2em;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+}
+
+
+
+/* Desktop */
+  @media only screen 
+  and (min-device-width: 1025px)  {
+  
+      .containerHeading {
+        padding-top: 2em;
+        padding-left: 28em;
+        padding-right: 28em;
+        padding-bottom: 2em;
+      }
+
+
+      p {
+        font-size: 1.2em;
+      }
+
+      td {
+        font-size: 1.2em;
+      }
+
+      a {
+        font-size: 1.2em;
+
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h3 {
+        font-size: 1.4em;
+      }
+  }
+
+
+
+
+
+
+
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+  .containerQualifications {
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 2em;
+  }
+
+
+  /* Tablet */
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .containerQualifications {
+      padding-left: 8em;
+      padding-right: 8em;
+      padding-bottom: 2em;
+    }
+}
+
+  /* Desktop */
+  @media only screen 
+  and (min-device-width: 1025px)  {
+
+      .containerQualifications {
+        padding-left: 28em;
+        padding-right: 28em;
+        padding-bottom: 2em;
+      }
+    }
+
+
+  .flex-container3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+      .internetCenter1 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-left: 4em;
+        padding-right: 4em;
+      }
+
+        
+      .flex-container3-item1 {
+        padding-right: 3em;
+        flex: 40%;
+      }
+      
+      .flex-container3-item2 {
+        flex: 60%;
+      }
+      
+
+      .internetCenter2 {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-left: 4em;
+        padding-right: 4em;
+      }
+
+
+          .flex-container3-item3 {
+            padding-right: 3em;
+            flex: 40%;
+          }
+          
+          .flex-container3-item4 {
+            flex: 60%;
+          }
+      
+
+
+          .internetCenter3 {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+            padding-top: 1rem;
+            padding-left: 4em;
+            padding-right: 4em;
+          }
+    
+    
+              .flex-container3-item5 {
+                padding-right: 3em;
+                flex: 40%;
+              }
+              
+              .flex-container3-item6 {
+                flex: 60%;
+              }
+          
+    
+
+
+
+
+
+
+  .flex-container4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+
+      .workTable {
+        margin-right: 4em;
+        margin-left: 4em;
+      }
+  
+
+      /* Tablet */
+
+      @media only screen 
+      and (min-device-width: 768px) 
+      and (max-device-width: 1024px) 
+      and (-webkit-min-device-pixel-ratio: 1) {
+      
+
+        .workTable {
+          margin-right: 7em;
+          margin-left: 7em;
+        }
+
+       }
+
+
+       @media only screen and
+       (min-device-width: 1024px)  {
+       
+ 
+         .workTable {
+           margin-right: 20em;
+           margin-left: 20em;
+         }
+ 
+        }
+ 
+ 
+
+
+
+
+
+    .flex-container5{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      padding-top: 1.5rem;
+    }
+
+    
+
+    .skillTable {
+      margin-right: 2em;
+      margin-left: 2em;
+
+    }
+
+    
+  
+
+    
+    .flex-container6 {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      padding-top: 2em;
+      padding-bottom: 1em;
+
+    }
+
+          .flex-container6-item1 {
+            flex: 50%;
+            padding-left: 3em;
+          }
+          
+          .flex-container6-item2 {
+            flex: 50%;
+            padding-right: 3em;
+          }
+          
+
+          /* Desktop */
+
+    
+      @media only screen 
+      and (min-device-width: 1024px)  {
+
+        .flex-container6-item1 {
+          flex: 50%;
+          padding-left: 12em;
+        }
+        
+        .flex-container6-item2 {
+          flex: 50%;
+          padding-right: 12em;
+        }
+        
+
+
+      }
+      
+
+          
+
+/* Horizontal Rule */
+hr {
+  border-style: dotted;
+  border-width: 0.25em;
+  border-bottom-style: none;
+  width: 10em;
+  color: rgb(214, 214, 214);
+}
+
+/* Images */
+.johncanero {
+  width: 11em;
+}
+
+/* Tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+    .johncanero {
+      width: 13em;
+    }
+
+}
+
+
+
+
+
+
+
+
+.reading {
+  width: 12em
+}
+
+.socialGif {
+  padding-top: 1em;
+  width: 9em;
+}
+
+
+.workIcon {
+  width: 8em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+} 
+
+
+/* Flaticons */
+.shapes {
+  width: 8em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.webDevelopment {
+  width: 9em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.skillsIcon {
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  width: 11em;
+}
+
+
+
+/* Desktop */
+@media only screen 
+  and (min-device-width: 1024px)  {
+  
+    .johncanero {
+      width: 14em;
+    }
+
+
+    .shapes {
+      width: 9em;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em;
+    }
+
+
+    .webDevelopment {
+      width: 11em;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+
+
+        
+    .reading {
+      width: 13em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+
+
+    .skillsIcon {
+      padding-top: 2.5em;
+      padding-bottom: 2em;
+      width: 13em;
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
+/* a-link */
+
+a:link {
+  color: rgb(43, 43, 43);
+}
+
+a:visited {
+  color: #0c0a36;
+}
+
+/* a:focus {
+  border-bottom: 1px solid;
+  background: #0080ff;     */
+
+/* a:hover {
+  border-bottom: 1px solid;
+  background: #b3d7ff;
+} */
+
+/* a:active {
+  background: #265301;
+  color: #CDFEAA;
+} */
+
+
+/* Font Awesome */

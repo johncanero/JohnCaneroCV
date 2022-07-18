@@ -7,10 +7,20 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Flex-Container */
 .flex-container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+/* Grid-Container */
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 80px 80px;
+  grid-template-rows: 80px 80px; 
+  justify-items: center;
 }
 
 
@@ -39,6 +49,18 @@ body {
   margin-bottom: 1.5em;
 }
 
+.readingLogo {
+  width: 12em;  
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+
+.socialLogo {
+  width: 10em;  
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
 
 
 /* a-link */

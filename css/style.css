@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
   /* footer support */
   margin-bottom: 40px;
@@ -25,6 +25,12 @@ body {
 }
 .backgroundContainer2 {
   background-color: #effffd;
+}
+
+
+/* Heading Tags */
+h1, h3 {
+  font-family: 'Poppins', sans-serif; 
 }
 
 
@@ -276,3 +282,8 @@ body {
     top:1px;
 }
 
+
+
+/* FONT STYLES */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */

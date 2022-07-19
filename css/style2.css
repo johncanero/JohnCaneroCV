@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
   /* footer support */
   margin-bottom: 40px;
   background-color: #effffd;
@@ -26,6 +27,14 @@ body {
 .backgroundContainer2 {
   background-color: #effffd;
 }
+
+
+/* Heading Tags */
+h1, h3 {
+  font-family: 'Poppins', sans-serif; 
+}
+
+
 
 /* Flex-Container */
 .flex-container1 {
@@ -200,3 +209,7 @@ input[type="email"] {
     top:1px;
 }
 
+
+/* FONT STYLES */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */

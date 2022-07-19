@@ -1,42 +1,83 @@
 
-/* Contact Details */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
+}
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  /* footer support */
+  margin-bottom: 40px;
+}
+
+
+
+/* Background Colors */
+.backgroundContainer1 {
+    background-color: #E3FDFD;
   }
-  
-  
-
-/* Horizontal Rule */
-hr {
-    border-style: dotted;
-    border-width: 0.25em;
-    border-bottom-style: none;
-    width: 10em;
-    color: rgb(214, 214, 214);
+  .backgroundContainer2{
+    background-color: #EFFFFD;
   }
 
 
 
+/* Flex-Container */
 .flex-container1 {
     display: flex;
     flex-direction: column;
-}   
+    align-items: center;
+  }
+  
+  
 
-        .flex-container1-item1 {
-            text-align: center;
-        }
+/* Padding */
+.paragraphPadding {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: justify;
+  }
 
-        .flex-container1-item2 {
-            padding-left: 1em;
-        }
+  .paragraphPadding2 {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+  }
 
-         /* Image */
-         .phoneContact {
-             width: 7em;
-        }
 
+
+
+.contactPadding {
+    margin-top: 1em;
+}
+
+
+
+/* Images */
+.phoneContactLogo {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 7em;
+}
+
+
+
+ 
 
         .footerGoBack {
             padding-top: 1em;

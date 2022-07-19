@@ -50,7 +50,7 @@ body {
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 120px 90px;
   justify-content: center;
 }
 

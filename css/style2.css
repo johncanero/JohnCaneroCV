@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -7,229 +6,157 @@
   margin: 0;
 }
 
-
 html {
   /* footer support */
   position: relative;
   min-height: 100%;
 }
 
-
 body {
   font-family: "Open Sans", sans-serif;
   /* footer support */
   margin-bottom: 40px;
-  background-color: #EFFFFD;
+  background-color: #effffd;
 }
-
-
 
 /* Background Colors */
 .backgroundContainer1 {
-    background-color: #E3FDFD;
-  }
-  .backgroundContainer2{
-    background-color: #EFFFFD;
-  }
-
-
+  background-color: #e3fdfd;
+}
+.backgroundContainer2 {
+  background-color: #effffd;
+}
 
 /* Flex-Container */
 .flex-container1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Padding */
 .paragraphPadding {
-    margin-left: 2em;
-    margin-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: justify;
-  }
+  margin: 0em 2em;
+  padding: 1em 0em;
+  text-align: justify;
+}
 
-  .paragraphPadding2 {
-    margin-left: 2em;
-    margin-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: left;
-  }
+.paragraphPadding2 {
+  margin: 0em 2em;
+  padding: 1em 0;
+  text-align: left;
+}
 
-
-  .paragraphPadding3 {
-    margin-left: 2em;
-    margin-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 2em;
-    text-align: left;
-  }
-
- 
-
+.paragraphPadding3 {
+  margin: 0em 2em;
+  padding: 1em 0 2em 0;
+  text-align: left;
+}
 
 /* Input */
-input[type=text] {
+input[type="text"] {
   width: 100%;
   margin: 3px 0;
   box-sizing: border-box;
 }
 
-input[type=email] {
+input[type="email"] {
   width: 100%;
   margin: 2px 0;
   box-sizing: border-box;
 }
 
-
-
-
-
-
-
 /* Tablet */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
-
-
-    /* Padding */
-.paragraphPadding {
-  margin-left: 4em;
-  margin-right: 4em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-
-.paragraphPadding2, .paragraphPadding3 {
-  margin-left: 4em;
-  margin-right: 4em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.messagePadding {
-  padding-right: 49%;
-}
-
-}
-
-
-/* Desktop */
-@media only screen 
-  and (min-device-width: 1025px) {
-
-/* Padding */
-.paragraphPadding {
-  margin-left: 10em;
-  margin-right: 10em;
-  padding-top: 1.5em;
-  padding-bottom: 1em;
-}
-
-.paragraphPadding2, .paragraphPadding3 {
-  margin-left: 10em;
-  margin-right: 10em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.messagePadding {
-  padding-right: 62.5%;
-}
-
-
-input[type=text] {
-  width: 80%;
-  margin: 6px 0;
-  box-sizing: border-box;
-}
-
-input[type=email] {
-  width: 80.3%;
-  margin: 6px 0;
-  box-sizing: border-box;
-}
-
-
-
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Padding */
+  .paragraphPadding {
+    margin: 0em 4em;
+    padding: 1em 0;
   }
 
+  .paragraphPadding2,
+  .paragraphPadding3 {
+    margin: 0 4em;
+    padding: 1em 0;
+  }
 
+  .messagePadding {
+    padding-right: 49%;
+  }
+}
 
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  /* Padding */
+  .paragraphPadding {
+    margin: 0 10em;
+    padding: 1.5em 0 1em 0;
+  }
 
+  .paragraphPadding2,
+  .paragraphPadding3 {
+    margin: 0 10em;
+    padding: 1em 0;
+  }
+
+  .messagePadding {
+    padding-right: 62.5%;
+  }
+
+  input[type="text"] {
+    width: 80%;
+    margin: 6px 0;
+    box-sizing: border-box;
+  }
+
+  input[type="email"] {
+    width: 80.3%;
+    margin: 6px 0;
+    box-sizing: border-box;
+  }
+}
 
 /* Contents */
 .contactPadding {
-    margin-top: 1em;
+  margin-top: 1em;
 }
-
-
 
 /* Footer */
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    padding: 0.5em;
-    background-color: #2fa4ff;
-    color: white;
-  }
-  
-  
-
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #2fa4ff;
+  color: white;
+}
 
 /* Images */
 .phoneContactLogo {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    width: 7em;
+  margin: 2em 0 1em 0;
+  width: 7em;
 }
-
 
 .puzzleIcon {
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    width: 9em;
+  margin: 3em 0 1.5em 0;
+  width: 9em;
 }
-
-
-
 
 /* Tablet */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Images */
+  .phoneContactLogo {
+    margin: 4em 0 2em 0;
+    width: 9em;
+  }
 
-    /* Images */
-.phoneContactLogo {
-  margin-top: 4em;
-  margin-bottom: 2em;
-  width: 9em;
+  .puzzleIcon {
+    margin: 4em 0 2em 0;
+    width: 9em;
+  }
 }
-
-
-.puzzleIcon {
-  margin-top: 4em;
-  margin-bottom: 2em;
-  width: 9em;
-  }
-
-
-  }
-
-
-
-

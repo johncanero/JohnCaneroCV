@@ -21,7 +21,17 @@ body {
   grid-template-columns: 80px 80px;
   grid-template-rows: 80px 80px; 
   justify-items: center;
+  margin: 1.5em 0;
 }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  justify-content: center;
+}
+
+
+
 
 
 .paragraphPadding {
@@ -29,6 +39,18 @@ body {
   margin-right: 1.4em;
   text-align: justify;
 }
+
+.skillsPadding {
+  margin-left: 1.4em;
+  margin-right: 1.4em;
+}
+
+/* Contents */
+.workTable {
+  margin: 1em 1em;
+}
+
+
 
 
 /* Images */
@@ -60,6 +82,12 @@ body {
   width: 10em;  
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+}
+
+
+.skillsIcon {
+  width: 10em;
+  margin-top: 1.5em;
 }
 
 

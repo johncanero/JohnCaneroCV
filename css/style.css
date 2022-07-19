@@ -6,13 +6,11 @@
   margin: 0;
 }
 
-
 html {
   /* footer support */
   position: relative;
   min-height: 100%;
 }
-
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -21,15 +19,13 @@ body {
   margin-bottom: 40px;
 }
 
-
 /* Background Colors */
 .backgroundContainer1 {
-  background-color: #E3FDFD;
+  background-color: #e3fdfd;
 }
-.backgroundContainer2{
-  background-color: #EFFFFD;
+.backgroundContainer2 {
+  background-color: #effffd;
 }
-
 
 /* Flex-Container */
 .flex-container1 {
@@ -38,122 +34,85 @@ body {
   align-items: center;
 }
 
-
 /* Grid-Container */
 .grid-container1 {
   display: grid;
   grid-template-columns: 80px 80px;
-  grid-template-rows: 80px 80px; 
+  grid-template-rows: 80px 80px;
   justify-items: center;
   margin: 1.5em 0;
 }
-
 .grid-container2 {
   display: grid;
   grid-template-columns: 120px 90px;
   justify-content: center;
 }
 
-
-
-
 /* Padding */
 .paragraphPadding {
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-top: 0.5em;
-  margin-bottom: 2em;
+  margin: 0.5em 2em 2em 2em;
   text-align: justify;
 }
 
 .skillsPadding {
-  margin-left: 2em;
-  margin-right: 2em;
-  padding-top: 1em;
-  padding-bottom: 2em;
+  margin: 0 2em;
+  padding: 1em 0 2em 0;
 }
 
-
 .iconPadding {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin: 3em 0;
 }
 
 .workPadding {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em 0;
 }
-
 
 .contactPadding {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
-
 
 /* Contents */
 .workTable {
   margin: 1em 1em;
 }
 
-
-
-
-
 /* Tablet */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .grid-container2 {
+    grid-template-columns: 180px 90px;
+  }
 
-/* Padding */
-.paragraphPadding {
-  margin-left: 8em;
-  margin-right: 8em;
-  margin-top: 0.5em;
-  margin-bottom: 2em;
+  /* Padding */
+  .paragraphPadding {
+    margin: 0.5em 8em 2em 8em;
+  }
+
+  /* Contents */
+  .workTable {
+    margin: 2em 8em;
+  }
+
+  .skillTable {
+    margin: 0 1em;
+  }
 }
-
-/* Contents */
-.workTable {
-  margin: 2em 8em;
-}
-
-.skillTable {
-  margin: 0 1em;
-}
-
-
-.grid-container2 {
-  grid-template-columns: 180px 90px;
-}
-}
-
-
-
 
 /* Desktop */
-@media only screen 
-  and (min-device-width: 1025px) {
+@media only screen and (min-device-width: 1025px) {
+  /* Padding */
+  .paragraphPadding {
+    margin: 2em 28em;
+  }
 
-/* Padding */
-.paragraphPadding {
-  margin-left: 28em;
-  margin-right: 28em;
-  margin-top: 2em;
-  margin-bottom: 2em
+  /* Contents */
+  .workTable {
+    margin: 2em 28em;
+  }
+
+  .grid-container2 {
+    grid-template-columns: 270px 90px;
+  }
 }
-
-/* Contents */
-.workTable {
-  margin: 2em 28em;
-}
-
-.grid-container2 {
-  grid-template-columns: 270px 90px;
-}
-
-}
-
 
 /* Footer */
 .footer {
@@ -170,15 +129,10 @@ body {
   color: white;
 }
 
-
-
-
-
 /* Images */
 .johncaneroLogo {
   width: 12.5em;
-  margin-top: 3em;
-  margin-bottom: 1.5em;
+  margin: 3em 0em 1.5em 0em;
 }
 
 .shapesLogo {
@@ -188,31 +142,24 @@ body {
 }
 
 .webDevelopmentLogo {
-  width: 11em;  
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  width: 11em;
+  margin: 1.5em 0;
 }
 
 .readingLogo {
-  width: 12em;  
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  width: 12em;
+  margin: 1.5em 0;
 }
-
 
 .socialLogo {
-  width: 10em;  
-  margin-top: 2em;
-  margin-bottom: 2em;
+  width: 10em;
+  margin: 2em 0;
 }
-
 
 .skillsIcon {
   width: 10em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin: 1.5em 0;
 }
-
 
 /* a-link */
 a:link {
@@ -222,18 +169,12 @@ a:visited {
   color: #0c0a36;
 }
 
-
-
-
 /* Desktop */
-@media only screen 
-  and (min-device-width: 1025px) {
-
-/* Images */
-.johncaneroLogo {
-  width: 14em;
-  margin-top: 4em;
-  margin-bottom: 1.5em;
-}
-
+@media only screen and (min-device-width: 1025px) {
+  /* Images */
+  .johncaneroLogo {
+    width: 14em;
+    margin-top: 4em;
+    margin-bottom: 1.5em;
+  }
 }

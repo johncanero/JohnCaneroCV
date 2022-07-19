@@ -100,17 +100,18 @@ input[type="email"] {
   }
 
   .messagePadding {
-    padding-right: 62.5%;
+    padding-right: 75%;
+    padding-bottom: 5%;
   }
 
   input[type="text"] {
-    width: 80%;
+    width: 41%;
     margin: 6px 0;
     box-sizing: border-box;
   }
 
   input[type="email"] {
-    width: 80.3%;
+    width: 41.3%;
     margin: 6px 0;
     box-sizing: border-box;
   }
@@ -159,4 +160,13 @@ input[type="email"] {
     margin: 4em 0 2em 0;
     width: 9em;
   }
+}
+
+@media only screen and (min-device-width: 1025px) {
+  /* Images */
+  .phoneContactLogo {
+    margin: 4em 0 2em 0;
+    width: 10em;
+  }
+
 }

@@ -78,6 +78,13 @@ body {
 
 /* Tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .grid-container1 {
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px;
+    justify-items: center;
+  }
+
   .grid-container2 {
     grid-template-columns: 180px 90px;
   }
@@ -178,3 +185,68 @@ a:visited {
     margin-bottom: 1.5em;
   }
 }
+
+
+
+/* Social Media */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1em;
+}
+
+.icon-bar a:hover {
+  background-color: #33bdef;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin,
+.youtube {
+  color: white;
+}
+.facebook {
+  background: #2fa4ff;
+}
+.instagram {
+  background: #2fa4ff;
+}
+.twitter {
+  background: #2fa4ff;
+}
+.youtube {
+  background: #2fa4ff;
+}
+.linkedin {
+  background: #2fa4ff;
+}
+.medium {
+  background: #2fa4ff;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+
+/* Mobile */
+@media only screen and (max-device-width: 767px) {
+  .icon-bar {
+    display: none;
+  }
+  }
+  

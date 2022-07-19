@@ -60,6 +60,19 @@ body {
   }
 
 
+  .paragraphPadding3 {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 100%;
+    text-align: left;
+  }
+
+ 
+
+ 
+
+
 /* Input */
 input[type=text] {
     width: 100%;
@@ -110,6 +123,12 @@ input[type=text] {
 }
 
 
+.puzzleIcon {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    width: 9em;
+}
+
 
 
 
@@ -118,131 +137,6 @@ input[type=text] {
 
 
 /* Hobbies */
-
-
-.flex-containerHobbies1 {
-    display: flex;
-    flex-direction: column;
-}
-
-
-        .flex-containerHobbies1-item1 {
-            text-align: center;
-        }
-
-        .flex-containerHobbies1-item2 {
-            padding-left: 1em;
-        }
-
-
-        .puzzleIcon {
-            width: 8em;
-        }
-
-
-        /* Tablet */
-        @media only screen 
-        and (min-device-width: 768px) 
-        and (max-device-width: 1024px) {
-        
-        
-            .puzzleIcon {
-                padding-top: 1em;
-                width: 10em; 
-            }
-
-
-            .flex-containerHobbies1-item2 {
-                padding-left: 3em;
-            }
-        }
-
-
-          /* Desktop */
-          @media only screen 
-          and (min-device-width: 1024px) {
-          
-          
-              .puzzleIcon {
-                  padding-top: 1em;
-                  width: 11em; 
-              }
-  
-  
-              .flex-containerHobbies1-item2 {
-                  padding-left: 10em;
-              }
-
-              li {
-                font-size: 1.2em;
-              }
-          }
-  
-  
-
-
-
-
-
-.flex-containerHobbies2 {
-     display: flex;
-     flex-direction: column;
-}
-
-
-
-.flex-containerHobbies2-item1 {
-    padding-left: 1em;
-}
-
-.flex-containerHobbies2-item2 {
-    padding-left: 1em;
-}   
-
-
-
-/* Tablet */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) {
-
-    .flex-containerHobbies2-item1 {
-        padding-left: 3em;
-    }
-    
-    .flex-containerHobbies2-item2 {
-        padding-left: 3em;
-    }   
-    
-    ol {
-        font-size: 1.1em;
-    }
-
-}
-
-
-
-
-
-/* Desktop */
-@media only screen 
-and (min-device-width: 1024px) {
-
-    .flex-containerHobbies2-item1 {
-        padding-left: 10em;
-    }
-    
-    .flex-containerHobbies2-item2 {
-        padding-left: 10em;
-    }   
-    
-    ol {
-        font-size: 1.2em;
-    }
-
-}
-
-
 
 
 

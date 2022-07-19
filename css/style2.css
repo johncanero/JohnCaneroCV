@@ -61,10 +61,29 @@ body {
 
 
 
-
+/* Contents */
 .contactPadding {
     margin-top: 1em;
 }
+
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #2fa4ff;
+    color: white;
+  }
+  
+  
 
 
 
@@ -77,164 +96,7 @@ body {
 
 
 
- 
 
-        .footerGoBack {
-            padding-top: 1em;
-            padding-left: 1em;
-        }
-            
-        /* Tablet */
-        @media only screen 
-         and (min-device-width: 768px) 
-         and (max-device-width: 1024px) 
-        {
-            
-        .flex-container1-item2 {
-            padding-top: 2em;
-            padding-left: 3em;
-        }
-
-        .phoneContact {
-            width: 8em;
-            padding-top: 1em;
-        }
-
-        p, label {
-            font-size: 1.1em;
-        }
-
-        }   
-
-        /* Desktop */
-        @media only screen and 
-        (min-device-width: 1025px) {
-  
-            .phoneContact {
-                width: 9em;
-                padding-top: 1em;
-            }
-
-            .flex-container1-item2 {
-                padding-top: 2em;
-                padding-left: 10em;
-            }
-
-            p {
-                font-size: 1.2em;
-            }
-
-            h1 {
-                font-size: 2em;
-            }
-
-            hr {
-                display: none;
-            }
-    
-        }
-           
-
-
-
-
-
-
-
-.flex-container2 {
-    display: flex;
-    flex-direction: column;
-}   
-
-        
-        .flex-container2-item1 {
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-
-        .flex-container2-item2 {
-            padding-left: 1em;
-        }
-
-
-           /* Tablet */
-           @media only screen 
-           and (min-device-width: 768px) 
-           and (max-device-width: 1024px) {
-
-
-                        
-                .flex-container2-item1 {
-                    padding-left: 3em;
-                    padding-right: 1em;
-                }
-
-                .flex-container2-item2 {
-                    padding-top: 1em;
-                    padding-left: 3em;
-                }
-
-                textarea {
-                    width: 48em;
-                }
-
-                .footerGoBack {
-                    padding-top: 1em;
-                    padding-left: 3em;
-                }
-
-                a {
-                    font-size: 1.1em;
-                }
-
-           }
-
-
-
-
-            /* Desktop */
-            @media only screen  
-            and (min-device-width: 1025px) 
-            {
-            
-                 .flex-container2-item1 {
-                     padding-left: 10em;
-                     padding-right: 1em;
-                 }
- 
-                 .flex-container2-item2 {
-                     padding-top: 1em;
-                     padding-left: 10em;
-                 }
- 
-                 textarea {
-                    width: 100em;
-                    height: 15em;
-                 }
-
-                 .footerGoBack {
-                    font-size: 1.2em;
-                     padding-top: 1em;
-                     padding-left: 1.1em;
-                     padding-bottom: 3em;
-                 }
-                 
-                 a {
-                    padding-left: 5.8em;
-                    font-size: 1.2em;
-                 }
-
-                 label {
-                    font-size: 1.2em;
-                 }
-
-                 hr {
-                    margin-top: 2em;
-                    margin-bottom: 2em;
-                    width: 25em;
-                 }
- 
-            }
 
 
 

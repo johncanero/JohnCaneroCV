@@ -1,11 +1,35 @@
-** {
-  margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
+
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
+}
+
 
 body {
   font-family: "Open Sans", sans-serif;
+
+  /* footer support */
+  margin-bottom: 40px;
 }
+
+
+/* Background Colors */
+.backgroundContainer1 {
+  background-color: #E3FDFD;
+}
+.backgroundContainer2{
+  background-color: #EFFFFD;
+}
+
 
 /* Flex-Container */
 .flex-container1 {
@@ -33,17 +57,42 @@ body {
 
 
 
-
+/* Padding */
 .paragraphPadding {
-  margin-left: 1.4em;
-  margin-right: 1.4em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
   text-align: justify;
 }
 
 .skillsPadding {
-  margin-left: 1.4em;
-  margin-right: 1.4em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
+
+
+.iconPadding {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.workPadding {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+.contactPadding {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+
+
 
 /* Contents */
 .workTable {
@@ -52,11 +101,30 @@ body {
 
 
 
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #2fa4ff;
+  color: white;
+}
+
+
+
+
 
 /* Images */
 .johncaneroLogo {
   width: 12.5em;
-  margin-top: 1.5em;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
 }
 
 .shapesLogo {
@@ -80,14 +148,15 @@ body {
 
 .socialLogo {
   width: 10em;  
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 
 .skillsIcon {
   width: 10em;
   margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 
@@ -98,7 +167,6 @@ a:link {
 a:visited {
   color: #0c0a36;
 }
-
 
 
 

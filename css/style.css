@@ -283,12 +283,6 @@ h1, h3 {
 }
 
 
-a:visited {
-  color: rgb(0, 83, 152);
-  background-color: transparent;
-  text-decoration: none;
-}
-
 
 /* FONT STYLES */
 /* font-family: 'Montserrat', sans-serif;

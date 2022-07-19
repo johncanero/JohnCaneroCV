@@ -19,6 +19,7 @@ body {
   font-family: "Open Sans", sans-serif;
   /* footer support */
   margin-bottom: 40px;
+  background-color: #EFFFFD;
 }
 
 
@@ -64,12 +65,39 @@ body {
     margin-left: 2em;
     margin-right: 2em;
     padding-top: 1em;
-    padding-bottom: 100%;
+    padding-bottom: 2em;
     text-align: left;
   }
 
  
 
+/* Tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+
+    /* Padding */
+.paragraphPadding {
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+.paragraphPadding2, .paragraphPadding3 {
+  margin-left: 4em;
+  margin-right: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.messagePadding {
+  padding-right: 49%;
+}
+
+}
  
 
 
@@ -85,6 +113,9 @@ input[type=text] {
     margin: 2px 0;
     box-sizing: border-box;
   }
+
+
+
 
 
 

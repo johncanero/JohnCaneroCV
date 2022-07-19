@@ -111,7 +111,6 @@ body {
   margin-right: 8em;
   margin-top: 0.5em;
   margin-bottom: 2em;
-  text-align: justify;
 }
 
 /* Contents */
@@ -119,15 +118,41 @@ body {
   margin: 2em 8em;
 }
 
+.skillTable {
+  margin: 0 1em;
+}
+
 
 .grid-container2 {
   grid-template-columns: 180px 90px;
 }
-
-
 }
 
 
+
+
+/* Desktop */
+@media only screen 
+  and (min-device-width: 1025px) {
+
+/* Padding */
+.paragraphPadding {
+  margin-left: 28em;
+  margin-right: 28em;
+  margin-top: 2em;
+  margin-bottom: 2em
+}
+
+/* Contents */
+.workTable {
+  margin: 2em 28em;
+}
+
+.grid-container2 {
+  grid-template-columns: 270px 90px;
+}
+
+}
 
 
 /* Footer */

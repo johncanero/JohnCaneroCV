@@ -91,13 +91,42 @@ body {
 }
 
 
-
-
-
 /* Contents */
 .workTable {
   margin: 1em 1em;
 }
+
+
+
+
+
+/* Tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+/* Padding */
+.paragraphPadding {
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  text-align: justify;
+}
+
+/* Contents */
+.workTable {
+  margin: 2em 8em;
+}
+
+
+.grid-container2 {
+  grid-template-columns: 180px 90px;
+}
+
+
+}
+
 
 
 

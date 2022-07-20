@@ -123,9 +123,19 @@ h1, h3 {
     margin: 2em 28em;
   }
 
+  .grid-container1 {
+    grid-template-columns: 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px;
+  }
+
   .grid-container2 {
     grid-template-columns: 270px 120px;
   }
+
+  .iconPadding {
+    margin-top: 3.5em;
+  }
+  
 }
 
 

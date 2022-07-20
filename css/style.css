@@ -293,6 +293,67 @@ h1, h3 {
 }
 
 
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+/* Social Media */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1em;
+}
+
+.icon-bar a:hover {
+  background-color: #33bdef;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin,
+.youtube {
+  color: white;
+}
+.facebook {
+  background: #2fa4ff;
+}
+.instagram {
+  background: #2fa4ff;
+}
+.twitter {
+  background: #2fa4ff;
+}
+.youtube {
+  background: #2fa4ff;
+}
+.linkedin {
+  background: #2fa4ff;
+}
+.medium {
+  background: #2fa4ff;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+}
+
+
+
+
 
 /* FONT STYLES */
 /* font-family: 'Montserrat', sans-serif;

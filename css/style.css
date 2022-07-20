@@ -51,7 +51,7 @@ h1, h3 {
 }
 .grid-container2 {
   display: grid;
-  grid-template-columns: 140px 120px;
+  grid-template-columns: 140px 100px;
   justify-content: center;
 }
 

@@ -15,10 +15,19 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
 
-  /* footer support */
-  margin-bottom: 40px;
-  background-color: #effffd;
+  /* Footer Guide */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
+
+
+
+/* Footer Guide */
+main {
+  flex-grow: 1;
+}
+
 
 /* Background Colors */
 .backgroundContainer1 {
@@ -45,7 +54,9 @@ h1, h3 {
 
 /* Padding */
 .paragraphPadding {
-  margin: 1em 2em;
+  margin: 0 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .paragraphPadding2 {
@@ -55,7 +66,7 @@ h1, h3 {
 
 .paragraphPadding3 {
   margin: 0em 2em;
-  padding: 1em 0 2em 0;
+  padding: 1em 0 4em 0;
   text-align: left;
 }
 
@@ -138,7 +149,7 @@ input[type="email"] {
   justify-content: center;
   gap: 10px;
   width: 100%;
-  padding: 0.5em;
+  padding: 0.7em;
   background-color: #2fa4ff;
   color: white;
 }

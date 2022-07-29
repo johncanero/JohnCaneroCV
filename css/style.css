@@ -55,6 +55,15 @@ h1, h3 {
   justify-content: center;
 }
 
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 100px 80px 100px;
+  grid-template-rows: 80px;
+  justify-items: center;
+}
+
+
+
 /* Padding */
 .paragraphPadding {
   margin: 0.5em 2em 2em 2em;

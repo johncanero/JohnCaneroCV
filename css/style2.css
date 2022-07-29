@@ -46,13 +46,11 @@ h1, h3 {
 /* Padding */
 .paragraphPadding {
   margin: 1em 2em;
-  text-align: justify;
 }
 
 .paragraphPadding2 {
   margin: 0em 2em;
   padding: 1em 0;
-  text-align: left;
 }
 
 .paragraphPadding3 {
@@ -148,8 +146,8 @@ input[type="email"] {
 
 /* Images */
 .phoneContactLogo {
-  margin-top: 1em;
-  width: 1em;
+  margin: 1.5em 0;
+  width: 9em;
 }
 .puzzleIcon {
   margin: 3em 0 1.5em 0;

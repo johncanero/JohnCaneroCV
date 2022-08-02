@@ -163,7 +163,7 @@ h1, h3 {
 
 /* Footer */
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   display: flex;
@@ -171,7 +171,7 @@ h1, h3 {
   justify-content: center;
   gap: 10px;
   width: 100%;
-  padding: 0.7em;
+  padding: 1em;
   background-color: #2fa4ff;
   color: white;
 }

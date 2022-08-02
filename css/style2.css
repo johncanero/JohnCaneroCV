@@ -141,7 +141,7 @@ input[type="email"] {
 
 /* Footer */
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   display: flex;
@@ -149,7 +149,7 @@ input[type="email"] {
   justify-content: center;
   gap: 10px;
   width: 100%;
-  padding: 0.7em;
+  padding: 1em;
   background-color: #2fa4ff;
   color: white;
 }

@@ -27,6 +27,7 @@ John Cañero CV 📄
 ## Website
 
 🖥️ [https://johncanero.github.io/JohnCaneroCV/]
+🎥 Video: [https://youtu.be/s7I7Wk8afgU]
 
 ✍️ Project by John Cañero
 
